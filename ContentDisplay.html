@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Display</title>
+    <style>
+        .pimg3{
+            position: relative;
+            opacity: 0.7;
+            background-position: center;
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-image: url('wallyisfast.jpeg');
+            min-height: 500px;
+        }
+        .section{
+            text-align: center;
+            padding: 50px 80px;
+        }
+        .section-dark{
+            background-color: #282e34;
+            color: #ddd;
+        }
+        .ptext{
+            position: absolute;
+            top:50%;
+            width: 100%;
+            text-align: center;
+            color: #000;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+        }
+        .ptext .border{
+          background-color: #111;
+          color: #fff;
+          padding: 20px;
+        }
+        .ptext .border .trans{
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <span class="border trans" style="font-size: 40px;">Welcome to this website</span>
+    <section class="section section-dark">
+        <h2>Section 1</h2>
+        <p>
+            Web development is the process of creating and maintaining websites and web applications. It involves a
+            range of tasks, from the user-facing front-end (what a user sees and interacts with) to the server-side
+            back-end (the behind-the-scenes logic and databases). Key skills include programming languages like HTML,
+            CSS, and JavaScript, as well as an understanding of design, database management, and performance
+            optimization.
+        </p>
+    </section>
+    <div class="pimg3">
+        <div class="ptext">
+            <span class="border trans">Image two text</span>
+        </div>
+    </div>
+</body>
+
+</html>
